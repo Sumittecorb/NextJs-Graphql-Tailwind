@@ -1,6 +1,8 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "./styles/tailwind.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
