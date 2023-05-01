@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <title>Next.Js-Graphql-Tailwind</title>
       <body className={inter.className}>
         {children}
         </body>

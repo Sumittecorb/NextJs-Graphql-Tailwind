@@ -3,8 +3,7 @@ import Link from "next/link";
 import GitHubIcon from "../icons/github";
 import LogoIcon from "../icons/logo";
 import VercelIcon from "../icons/vercel";
-// import { getMenu } from 'lib/shopify';
-// import { Menu } from 'lib/shopify/types';
+
 
 const { SITE_NAME } = process.env;
 
