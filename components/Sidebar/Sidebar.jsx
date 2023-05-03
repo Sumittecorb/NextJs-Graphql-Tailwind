@@ -3,8 +3,8 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-import NotificationDropdown from "../Dropdowns/NotificationDropdown.js";
-import UserDropdown from "../Dropdowns/UserDropdown.js";
+import NotificationDropdown from "../Dropdowns/NotificationDropdown.jsx";
+import UserDropdown from "../Dropdowns/UserDropdown.jsx";
 
 export default function Sidebar() {
   const [collapseShow, setCollapseShow] = React.useState("hidden");
@@ -79,7 +79,7 @@ export default function Sidebar() {
                 <input
                   type="text"
                   placeholder="Search"
-                  className="border-0 px-3 py-2 h-12 border border-solid  border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
+                  className=" px-3 py-2 h-12 border border-solid  border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
                 />
               </div>
             </form>
